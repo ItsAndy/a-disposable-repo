@@ -1,0 +1,2 @@
+type Query { me: ID! }
+type Mutation { chat(id: ID!): ID! ping(id: ID!): ID! }
